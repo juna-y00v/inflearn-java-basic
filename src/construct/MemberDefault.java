@@ -5,5 +5,6 @@ public class MemberDefault {
 
     public MemberDefault() {
         System.out.println("생성자 호출");
+        System.out.println("기본 생성자");
     }
 }
