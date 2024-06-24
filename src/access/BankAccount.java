@@ -2,10 +2,10 @@ package access;
 
 public class BankAccount {
 
-    private  int balance;
+    private int balance;
 
     public BankAccount() {
-        balance =0;
+        balance = 0;
     }
 
     //public 메서드 : deposit
@@ -31,8 +31,9 @@ public class BankAccount {
 
 
     }
+
     private boolean isAmountValid(int amount) {
         //금액이 0보다 커야함
-        return amount >0;
+        return amount > 0;
     }
 }

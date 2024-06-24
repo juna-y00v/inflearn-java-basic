@@ -14,7 +14,7 @@ public class SpeakMain {
 
         //필드에 직접 접근
         System.out.println("volume 필드 직접 접근 수정");
-        //speaker.volume =200; //private 접근 오류
+        //speaker.volume =200; //private 접근 불가
         speaker.showVolume();
     }
 }
